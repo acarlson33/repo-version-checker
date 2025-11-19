@@ -1,0 +1,20 @@
+{
+  "projectId": "ID HERE",
+  "projectName": "github-version-checker",
+  "functions": [
+    {
+      "functionId": "check-version",
+      "name": "Check GitHub Repository Version",
+      "runtime": "node-18.0",
+      "execute": ["any"],
+      "events": [],
+      "schedule": "",
+      "timeout": 15,
+      "enabled": true,
+      "logging": true,
+      "entrypoint": "src/main.ts",
+      "commands": "bun install",
+      "path": "."
+    }
+  ]
+}
