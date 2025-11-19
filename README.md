@@ -93,4 +93,4 @@ npm run dev
 ## License
 
 MIT
-API to track versions for firepit
+API to track versions for github repositories
